@@ -8,3 +8,5 @@ public class Generics {
         System.out.println(arrayList);
     }
 }
+
+// New comment
