@@ -1,0 +1,24 @@
+{
+	"Print to terminal": {
+		"prefix": "print",
+		"body":"System.out.println($1);",
+		"description": "print in java"
+	},
+	"Main Class": {
+		"prefix": "boilerplate",
+		"body":[
+			"import java.util.Scanner;",
+			"public class <Class Name Same as file name>{",
+    			"public static void main(String[] args){",
+				"}",
+			"}"
+		],
+		"description": "print in java"
+	},
+	"Input": {
+		"prefix": "scan",
+		"body":"Scanner sc = new Scanner(System.in);",
+		"description": "print in java"
+	},
+
+}
